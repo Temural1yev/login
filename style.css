@@ -1,0 +1,116 @@
+@font-face {
+    font-family:"Gilroy-ExtraBold" ;
+    src: url("Gilroy-font-free/Gilroy-ExtraBold.ttf");
+}
+@font-face {
+    font-family:"Gilroy-Light" ;
+    src: url("Gilroy-font-free/Gilroy-Light.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section{
+    background-image: url("img/");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(178 178 178);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+}
+.form{
+    width: 600px;
+    height: 700px;
+    background: rgba(255,255,255,.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,.1);
+    border: 1px solid rgba(255,255,255,.3);
+    padding: 50px;
+}
+.main-img img{
+    width: 820px;
+    height: 750px;
+    object-fit: contain;
+}
+.form h6{
+    font-family:"Gilroy-ExtraBold" ;
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(136 202 12);
+}
+.form h2{
+    font-family:"Gilroy-ExtraBold" ;
+    font-weight: 800;
+    font-size: 45px;
+    color:rgb(78 78 77);;
+    padding: 10px 0px 15px;
+}
+.form label{
+    font-family:"Gilroy-ExtraBold" ;
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(78 78 77);;
+}
+.form input{
+    font-family:"Gilroy-ExtraBold" ;
+    font-weight: 800;
+    font-size: 15px;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    margin: 10px 0px 25px;
+}
+.form p{
+    font-family:"Gilroy-ExtraBold" ;
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(78 78 77);;
+}
+.submit{
+    font-family:"Gilroy-ExtraBold" ;
+    font-weight: 800;
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    margin: 20px 0px;
+    background-color:rgb(136 202 12);
+    cursor: pointer;
+}
+.form h5{
+    font-family:"Gilroy-ExtraBold" ;
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(78 78 77);;
+    text-align: center;
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 17px 0px;
+}
+.icon{
+    background-color: #fff;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+.form h3{
+    font-family:"Gilroy-ExtraBold" ;
+    font-weight: 800;
+    font-size: 18px;
+    color: rgb(78 78 77);;
+    text-align: center;
+}
+.form span{
+    font-family:"Gilroy-ExtraBold" ;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(136 202 12);
+}
